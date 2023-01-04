@@ -1,0 +1,12 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="on_bot_code_start" id="9eH;j#1PNg_^JT1%O14s" x="413" y="112">
+    <field name="main_text">When the</field>
+    <field name="event">bot</field>
+    <statement name="code">
+      <block type="set_bot_game_stream" id="8e6Q7xP6!%{8T2kkM5:C">
+        <field name="OIFD">online</field>
+        <field name="TYPE">LISTENING</field>
+      </block>
+    </statement>
+  </block>
+</xml>
