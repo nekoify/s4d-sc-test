@@ -1,1 +1,24 @@
-
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="on_bot_code_start" id="S!q,%%03a19+jI+/R)i," x="113" y="112">
+    <field name="main_text">When the</field>
+    <field name="event">bot</field>
+    <statement name="code">
+      <block type="controls_repeat_ext" id="72xh6dJ1wzLd6ca);89a">
+        <value name="TIMES">
+          <block type="math_number" id="qy)uPQD$yNPY#IL?(2Hd">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="text_print" id="jJ{0U.y;^m:i,iHF?ni2">
+            <value name="TEXT">
+              <block type="text" id="G^mhuwhgK{X%a2=?;nGa">
+                <field name="TEXT">meow</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
