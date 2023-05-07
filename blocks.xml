@@ -1,17 +1,5 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-  <block type="eventClientConnected" id="t8b+/1PVW%uUrEk,1G~r" x="210" y="110">
-    <statement name="STATEMENTS">
-      <block type="controls_if" id="Q+)|VMf?IrN|f(jF5~UB">
-        <statement name="DO0">
-          <block type="controls_repeat_ext" id="BTfgB22.!6sM*:`Q9d/a">
-            <value name="TIMES">
-              <block type="math_number" id="n_|3QL%4;bLz?DAiPkRf">
-                <field name="NUM">10</field>
-              </block>
-            </value>
-          </block>
-        </statement>
-      </block>
-    </statement>
+  <block type="text" id="jxe66D+`zXnOB3|TY)Zr" disabled="true" x="110" y="70">
+    <field name="TEXT"></field>
   </block>
 </xml>
