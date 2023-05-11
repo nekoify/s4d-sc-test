@@ -1,1 +1,13 @@
-Y29uc3QgRGlzY29yZCA9IHJlcXVpcmUoJ2Rpc2NvcmQuanMnKQogICAgICAgICAgICAKICAgICAgICAgICAgbW9kdWxlLmV4cG9ydHMgPSB7CiAgICAgICAgICAgICAgICBuYW1lOiBwaW5nLAogICAgICAgICAgICAgICAgcnVuOiBhc3luYyAoczRkLCBtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgczRkLmNsaWVudC5vbigncmVhZHknLCBhc3luYyAoKSA9PiB7CiAgaWYgKGZhbHNlKSB7CiAgfQoKfSk7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9
+const Discord = require('discord.js')
+            
+            module.exports = {
+                name: ping,
+                run: async (s4d, message) => {
+                    s4d.client.on('ready', async () => {
+  if (false) {
+  }
+
+});
+
+                }
+            }

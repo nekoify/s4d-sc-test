@@ -1,1 +1,8 @@
-Y29uc3QgRGlzY29yZCA9IHJlcXVpcmUoJ2Rpc2NvcmQuanMnKQogICAgICAgICAgICAKICAgICAgICAgICAgbW9kdWxlLmV4cG9ydHMgPSB7CiAgICAgICAgICAgICAgICBuYW1lOiBibGVoMywKICAgICAgICAgICAgICAgIHJ1bjogYXN5bmMgKHM0ZCwgbWVzc2FnZSkgPT4gewogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9
+const Discord = require('discord.js')
+            
+            module.exports = {
+                name: bleh3,
+                run: async (s4d, message) => {
+                    
+                }
+            }

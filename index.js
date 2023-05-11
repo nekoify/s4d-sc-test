@@ -1,1 +1,25 @@
-KGFzeW5jICgpID0+IHsKICAgICAgICAgICAgY29uc3QgRGlzY29yZCA9IHJlcXVpcmUoImRpc2NvcmQuanMiKQogICAgICAgICAgICBjb25zdCB7IENsaWVudCwgR2F0ZXdheUludGVudEJpdHMgfSA9IERpc2NvcmQKCiAgICAgICAgICAgIGNvbnN0IHM0ZCA9IHsKICAgICAgICAgICAgICAgIGNsaWVudDogbmV3IENsaWVudCh7CiAgICAgICAgICAgICAgICAgICAgaW50ZW50czogWy4uLk9iamVjdC52YWx1ZXMoR2F0ZXdheUludGVudEJpdHMpXQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgczRkLmNsaWVudC5vbigncmVhZHknLCBhc3luYyAoKSA9PiB7Cgp9KTsKCnM0ZC5jbGllbnQubG9naW4oKS5jYXRjaCgoZSkgPT4gewogICAgY29uc3QgdG9rZW5JbnZhbGlkID0gdHJ1ZTsKICAgIGNvbnN0IHRva2VuRXJyb3IgPSBlOwogICAgaWYgKGUudG9TdHJpbmcoKS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKCJ0b2tlbiIpKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCJBbiBpbnZhbGlkIGJvdCB0b2tlbiB3YXMgcHJvdmlkZWQhIikKICAgIH0gZWxzZSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCJQcml2aWxlZ2VkIEdhdGV3YXkgSW50ZW50cyBhcmUgbm90IGVuYWJsZWQhIFBsZWFzZSBnbyB0byBodHRwczovL2Rpc2NvcmQuY29tL2RldmVsb3BlcnMgYW5kIHR1cm4gb24gYWxsIG9mIHRoZW0uIikKICAgIH0KfSk7CgogICAgICAgIH0pKCk=
+(async () => {
+            const Discord = require("discord.js")
+            const { Client, GatewayIntentBits } = Discord
+
+            const s4d = {
+                client: new Client({
+                    intents: [...Object.values(GatewayIntentBits)]
+                })
+            }
+
+            s4d.client.on('ready', async () => {
+
+});
+
+s4d.client.login().catch((e) => {
+    const tokenInvalid = true;
+    const tokenError = e;
+    if (e.toString().toLowerCase().includes("token")) {
+        throw new Error("An invalid bot token was provided!")
+    } else {
+        throw new Error("Privileged Gateway Intents are not enabled! Please go to https://discord.com/developers and turn on all of them.")
+    }
+});
+
+        })()
